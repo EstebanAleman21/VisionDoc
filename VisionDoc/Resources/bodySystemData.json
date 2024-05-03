@@ -1,0 +1,33 @@
+[    
+    {
+    "name": "Circulatory System",
+    "id": 1001,
+    "modelName": "heart.usdz",
+    "description": "The circulatory system transports oxygen, nutrients, hormones, and waste products throughout the body using blood as the transport medium. It includes the heart, blood vessels, and blood. Essential for maintaining homeostasis and supporting cellular functions."
+    },
+    {
+        "name": "Skeletal System",
+        "id": 1002,
+        "modelName": "bone.scn",
+        "description": "The skeletal system provides structural support, protects internal organs, facilitates movement through joints and muscles, stores minerals, and produces blood cells in the bone marrow. It is essential for locomotion and bodily protection."
+    },
+    {
+        "name": "Nervous System",
+        "id": 1003,
+        "modelName": "nerve_cell.scn",
+        "description": "The nervous system coordinates body functions through electrical signals, processes sensory information, supports cognitive functions, and regulates responses to the environment. It includes the brain, spinal cord, and peripheral nerves. Essential for communication and control within the body."
+    },
+    {
+        "name": "Muscular System",
+        "id": 1004,
+        "modelName": "muscle.usdz",
+        "description": "The muscular system enables movement, maintains posture, and produces heat through muscle contractions. It consists of skeletal, smooth, and cardiac muscles. Essential for locomotion, organ function, and overall body dynamics."
+    },
+    {
+        "name": "Respiratory System",
+        "id": 1005,
+        "modelName": "lungs.usdz",
+        "description": "The respiratory system facilitates gas exchange, supplying oxygen to the body and expelling carbon dioxide. It includes the lungs, airways, and diaphragm. Essential for breathing and maintaining blood pH balance."
+    },
+    
+]

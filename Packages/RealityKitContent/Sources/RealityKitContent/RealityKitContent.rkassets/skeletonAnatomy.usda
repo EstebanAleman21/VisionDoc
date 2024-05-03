@@ -1,0 +1,54 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "skeleton" (
+        active = true
+        prepend references = @skeleton.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "InputTarget"
+        {
+            uniform token info:id = "RealityKit.InputTarget"
+        }
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 1
+            uniform token info:id = "RealityKit.Collider"
+            uint mask = 4294967295
+            token type = "Default"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (127.22725, 300, 50.57875)
+                float height = 300
+                float radius = 63.613625
+                token shapeType = "Capsule"
+
+                def RealityKitStruct "pose"
+                {
+                    float3 position = (0.006624222, -1.3014145, 6.9623346)
+                }
+            }
+        }
+
+        def RealityKitCustomComponent "RealityKitContent_GestureComponent"
+        {
+            uniform token info:id = "RealityKitContent.GestureComponent"
+        }
+    }
+}
+

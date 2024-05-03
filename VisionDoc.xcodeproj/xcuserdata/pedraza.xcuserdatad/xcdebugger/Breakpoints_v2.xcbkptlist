@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFCD216B-9EC5-4408-94AE-A2CC07680BA1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionDoc/Views/ImmersiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 2a5d8848d43b4bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - e6ab014d319c3a37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 1d421236a99487e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 1d421236a99487e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 65f2df0c5cc165ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 65f2df0c5cc165ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E1B9F65-2695-49DA-A4DA-C5AE0D331B37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionDoc/ModelAttachments/DioramaView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4E1B9F65-2695-49DA-A4DA-C5AE0D331B37 - 68c1fe1244aa16a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((tag: Swift.ObjectIdentifier, view: SwiftUI.AnyView)) -&gt; _RealityKit_SwiftUI.Attachment&lt;SwiftUI.AnyView&gt; in closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(tag: Swift.ObjectIdentifier, view: SwiftUI.AnyView)&gt;, Swift.ObjectIdentifier, _RealityKit_SwiftUI.Attachment&lt;SwiftUI.AnyView&gt;&gt; in VisionDoc.DioramaView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/ModelAttachments/DioramaView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+               <Location
+                  uuid = "4E1B9F65-2695-49DA-A4DA-C5AE0D331B37 - a86dc205faf95cec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;(tag: Swift.ObjectIdentifier, view: SwiftUI.AnyView)&gt;, Swift.ObjectIdentifier, _RealityKit_SwiftUI.Attachment&lt;SwiftUI.AnyView&gt;&gt; in VisionDoc.DioramaView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/ModelAttachments/DioramaView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94F443EA-5EBB-459E-81AC-864860DF9799"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionDoc/ModelAttachments/DioramaView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C1E6C5A-CA1B-4039-8AAE-5420625A36EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionDoc/ModelAttachments/DioramaView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7C1E6C5A-CA1B-4039-8AAE-5420625A36EC - 5a9959a30a7087bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RealityKit.Entity) -&gt; () in closure #2 @Swift.MainActor (inout _RealityKit_SwiftUI.RealityViewContent, _RealityKit_SwiftUI.RealityViewAttachments) -&gt; () in VisionDoc.DioramaView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/ModelAttachments/DioramaView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82">
+               </Location>
+               <Location
+                  uuid = "7C1E6C5A-CA1B-4039-8AAE-5420625A36EC - 5a9959a30a7087bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RealityKit.Entity) -&gt; () in closure #2 @Swift.MainActor (inout _RealityKit_SwiftUI.RealityViewContent, _RealityKit_SwiftUI.RealityViewAttachments) -&gt; () in VisionDoc.DioramaView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Desktop/VisionDoc/VisionDoc/ModelAttachments/DioramaView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

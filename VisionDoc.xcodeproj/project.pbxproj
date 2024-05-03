@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392982E02BE4941A00247195 /* SharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392982DF2BE4941A00247195 /* SharedViewModel.swift */; };
+		392982E22BE4977900247195 /* NervousDioramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392982E12BE4977900247195 /* NervousDioramaView.swift */; };
+		393C0C092BD852BD002641E0 /* AnatomyQuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C0C082BD852BD002641E0 /* AnatomyQuizView2.swift */; };
+		3942AB272BA379D400203808 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3942AB262BA379D400203808 /* RealityKitContent */; };
+		3942AB292BA379D400203808 /* VisionDocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB282BA379D400203808 /* VisionDocApp.swift */; };
+		3942AB2B2BA379D400203808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB2A2BA379D400203808 /* ContentView.swift */; };
+		3942AB2D2BA379D400203808 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB2C2BA379D400203808 /* ImmersiveView.swift */; };
+		3942AB2F2BA379D600203808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB2E2BA379D600203808 /* Assets.xcassets */; };
+		3942AB322BA379D600203808 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB312BA379D600203808 /* Preview Assets.xcassets */; };
+		3942AB3D2BA379D600203808 /* VisionDocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB3C2BA379D600203808 /* VisionDocTests.swift */; };
+		3942AB5F2BA37A4200203808 /* anatomyscene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB462BA37A4100203808 /* anatomyscene.usdz */; };
+		3942AB602BA37A4200203808 /* bone.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB472BA37A4100203808 /* bone.scn */; };
+		3942AB612BA37A4200203808 /* doctor.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB482BA37A4100203808 /* doctor.obj */; };
+		3942AB622BA37A4200203808 /* heart.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB492BA37A4100203808 /* heart.usdz */; };
+		3942AB642BA37A4200203808 /* lungs.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB4B2BA37A4100203808 /* lungs.usdz */; };
+		3942AB652BA37A4200203808 /* muscle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB4C2BA37A4100203808 /* muscle.usdz */; };
+		3942AB662BA37A4200203808 /* nerve_cell.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB4D2BA37A4100203808 /* nerve_cell.scn */; };
+		3942AB682BA37A4200203808 /* BodySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB512BA37A4100203808 /* BodySystem.swift */; };
+		3942AB692BA37A4200203808 /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB522BA37A4100203808 /* MenuOptions.swift */; };
+		3942AB6A2BA37A4200203808 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB532BA37A4100203808 /* ModelData.swift */; };
+		3942AB6B2BA37A4200203808 /* bodySystemData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3942AB552BA37A4200203808 /* bodySystemData.json */; };
+		3942AB6C2BA37A4200203808 /* BodyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB572BA37A4200203808 /* BodyRow.swift */; };
+		3942AB702BA37A4200203808 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB5B2BA37A4200203808 /* MenuView.swift */; };
+		3942AB712BA37A4200203808 /* SceneKitModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB5C2BA37A4200203808 /* SceneKitModelView.swift */; };
+		3942AB722BA37A4200203808 /* systemsMenu3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB5D2BA37A4200203808 /* systemsMenu3D.swift */; };
+		3942AB742BA384AF00203808 /* SkeletalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942AB732BA384AF00203808 /* SkeletalModel.swift */; };
+		3942ABA72BA3F11B00203808 /* NervousModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABA62BA3F11B00203808 /* NervousModel.swift */; };
+		3942ABA92BA3F29600203808 /* CirculatoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABA82BA3F29600203808 /* CirculatoryModel.swift */; };
+		3942ABAB2BA3F2D300203808 /* RespiratoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABAA2BA3F2D300203808 /* RespiratoryModel.swift */; };
+		3942ABAF2BA3F34600203808 /* MuscularModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABAE2BA3F34600203808 /* MuscularModel.swift */; };
+		3942ABB12BA4BEA900203808 /* Quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 3942ABB02BA4BEA900203808 /* Quiz.json */; };
+		3942ABB92BA4BEBB00203808 /* difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABB22BA4BEBB00203808 /* difficulty.swift */; };
+		3942ABBA2BA4BEBB00203808 /* DifficultyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABB32BA4BEBB00203808 /* DifficultyButton.swift */; };
+		3942ABBB2BA4BEBB00203808 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABB42BA4BEBB00203808 /* QuizData.swift */; };
+		3942ABBC2BA4BEBB00203808 /* QuizMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABB52BA4BEBB00203808 /* QuizMenuView.swift */; };
+		3942ABBE2BA4BEBB00203808 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942ABB72BA4BEBB00203808 /* QuizView.swift */; };
+		3961B44E2BD6EEEE00F0B33F /* ContentViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B4482BD6EEED00F0B33F /* ContentViewTest.swift */; };
+		3961B44F2BD6EEEE00F0B33F /* AttachmentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B4492BD6EEED00F0B33F /* AttachmentsProvider.swift */; };
+		3961B4502BD6EEEE00F0B33F /* DioramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B44A2BD6EEED00F0B33F /* DioramaView.swift */; };
+		3961B4512BD6EEEE00F0B33F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B44B2BD6EEEE00F0B33F /* ViewModel.swift */; };
+		3961B4522BD6EEEE00F0B33F /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B44C2BD6EEEE00F0B33F /* Components.swift */; };
+		3961B4532BD6EEEE00F0B33F /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B44D2BD6EEEE00F0B33F /* LearnMoreView.swift */; };
+		39725C702BC85E9F00D62630 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39725C6F2BC85E9F00D62630 /* AccountView.swift */; };
+		3987B7792BD728D4006F487E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3987B7782BD728D4006F487E /* UserProfileView.swift */; };
+		3987B77B2BD728E8006F487E /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3987B77A2BD728E8006F487E /* UserProfileViewModel.swift */; };
+		5B5DEBF72BC891F000F1251A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DEBF62BC891EF00F1251A /* NetworkManager.swift */; };
+		5B5DEBF92BC89F0300F1251A /* BodySystemGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DEBF82BC89F0300F1251A /* BodySystemGridView.swift */; };
+		5B5DEBFB2BC8B4EE00F1251A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DEBFA2BC8B4EE00F1251A /* QuestionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3942AB392BA379D600203808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3942AB192BA379D400203808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3942AB202BA379D400203808;
+			remoteInfo = VisionDoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392982DF2BE4941A00247195 /* SharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewModel.swift; sourceTree = "<group>"; };
+		392982E12BE4977900247195 /* NervousDioramaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousDioramaView.swift; sourceTree = "<group>"; };
+		393C0C082BD852BD002641E0 /* AnatomyQuizView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnatomyQuizView2.swift; sourceTree = "<group>"; };
+		3942AB212BA379D400203808 /* VisionDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3942AB252BA379D400203808 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		3942AB282BA379D400203808 /* VisionDocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDocApp.swift; sourceTree = "<group>"; };
+		3942AB2A2BA379D400203808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3942AB2C2BA379D400203808 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		3942AB2E2BA379D600203808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3942AB312BA379D600203808 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3942AB332BA379D600203808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3942AB382BA379D600203808 /* VisionDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3942AB3C2BA379D600203808 /* VisionDocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDocTests.swift; sourceTree = "<group>"; };
+		3942AB462BA37A4100203808 /* anatomyscene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = anatomyscene.usdz; sourceTree = "<group>"; };
+		3942AB472BA37A4100203808 /* bone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bone.scn; sourceTree = "<group>"; };
+		3942AB482BA37A4100203808 /* doctor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doctor.obj; sourceTree = "<group>"; };
+		3942AB492BA37A4100203808 /* heart.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = heart.usdz; sourceTree = "<group>"; };
+		3942AB4B2BA37A4100203808 /* lungs.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lungs.usdz; sourceTree = "<group>"; };
+		3942AB4C2BA37A4100203808 /* muscle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = muscle.usdz; sourceTree = "<group>"; };
+		3942AB4D2BA37A4100203808 /* nerve_cell.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = nerve_cell.scn; sourceTree = "<group>"; };
+		3942AB512BA37A4100203808 /* BodySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySystem.swift; sourceTree = "<group>"; };
+		3942AB522BA37A4100203808 /* MenuOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
+		3942AB532BA37A4100203808 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3942AB552BA37A4200203808 /* bodySystemData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bodySystemData.json; sourceTree = "<group>"; };
+		3942AB572BA37A4200203808 /* BodyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyRow.swift; sourceTree = "<group>"; };
+		3942AB5B2BA37A4200203808 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		3942AB5C2BA37A4200203808 /* SceneKitModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKitModelView.swift; sourceTree = "<group>"; };
+		3942AB5D2BA37A4200203808 /* systemsMenu3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = systemsMenu3D.swift; sourceTree = "<group>"; };
+		3942AB732BA384AF00203808 /* SkeletalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletalModel.swift; sourceTree = "<group>"; };
+		3942AB752BA393BD00203808 /* kidney.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = kidney.usdz; sourceTree = "<group>"; };
+		3942ABA62BA3F11B00203808 /* NervousModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousModel.swift; sourceTree = "<group>"; };
+		3942ABA82BA3F29600203808 /* CirculatoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculatoryModel.swift; sourceTree = "<group>"; };
+		3942ABAA2BA3F2D300203808 /* RespiratoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiratoryModel.swift; sourceTree = "<group>"; };
+		3942ABAE2BA3F34600203808 /* MuscularModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscularModel.swift; sourceTree = "<group>"; };
+		3942ABB02BA4BEA900203808 /* Quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Quiz.json; sourceTree = "<group>"; };
+		3942ABB22BA4BEBB00203808 /* difficulty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = difficulty.swift; sourceTree = "<group>"; };
+		3942ABB32BA4BEBB00203808 /* DifficultyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyButton.swift; sourceTree = "<group>"; };
+		3942ABB42BA4BEBB00203808 /* QuizData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		3942ABB52BA4BEBB00203808 /* QuizMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizMenuView.swift; sourceTree = "<group>"; };
+		3942ABB72BA4BEBB00203808 /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		3961B4482BD6EEED00F0B33F /* ContentViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewTest.swift; sourceTree = "<group>"; };
+		3961B4492BD6EEED00F0B33F /* AttachmentsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentsProvider.swift; sourceTree = "<group>"; };
+		3961B44A2BD6EEED00F0B33F /* DioramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DioramaView.swift; sourceTree = "<group>"; };
+		3961B44B2BD6EEEE00F0B33F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3961B44C2BD6EEEE00F0B33F /* Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		3961B44D2BD6EEEE00F0B33F /* LearnMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreView.swift; sourceTree = "<group>"; };
+		39725C6F2BC85E9F00D62630 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3987B7782BD728D4006F487E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		3987B77A2BD728E8006F487E /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		5B5DEBF62BC891EF00F1251A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B5DEBF82BC89F0300F1251A /* BodySystemGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySystemGridView.swift; sourceTree = "<group>"; };
+		5B5DEBFA2BC8B4EE00F1251A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3942AB1E2BA379D400203808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942AB272BA379D400203808 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3942AB352BA379D600203808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3942AB182BA379D400203808 = {
+			isa = PBXGroup;
+			children = (
+				3942AB232BA379D400203808 /* VisionDoc */,
+				3942AB242BA379D400203808 /* Packages */,
+				3942AB3B2BA379D600203808 /* VisionDocTests */,
+				3942AB222BA379D400203808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3942AB222BA379D400203808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB212BA379D400203808 /* VisionDoc.app */,
+				3942AB382BA379D600203808 /* VisionDocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3942AB232BA379D400203808 /* VisionDoc */ = {
+			isa = PBXGroup;
+			children = (
+				3961B4472BD6EE9900F0B33F /* ModelAttachments */,
+				3942AB4E2BA37A4100203808 /* 3D Models */,
+				3942AB542BA37A4100203808 /* Models */,
+				3942AB502BA37A4100203808 /* RealityViews */,
+				3942AB562BA37A4200203808 /* Resources */,
+				3942AB5E2BA37A4200203808 /* Views */,
+				3942AB2E2BA379D600203808 /* Assets.xcassets */,
+				3942AB332BA379D600203808 /* Info.plist */,
+				3942AB302BA379D600203808 /* Preview Content */,
+			);
+			path = VisionDoc;
+			sourceTree = "<group>";
+		};
+		3942AB242BA379D400203808 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB252BA379D400203808 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		3942AB302BA379D600203808 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB312BA379D600203808 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3942AB3B2BA379D600203808 /* VisionDocTests */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB3C2BA379D600203808 /* VisionDocTests.swift */,
+			);
+			path = VisionDocTests;
+			sourceTree = "<group>";
+		};
+		3942AB4E2BA37A4100203808 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB462BA37A4100203808 /* anatomyscene.usdz */,
+				3942AB472BA37A4100203808 /* bone.scn */,
+				3942AB482BA37A4100203808 /* doctor.obj */,
+				3942AB492BA37A4100203808 /* heart.usdz */,
+				3942AB4B2BA37A4100203808 /* lungs.usdz */,
+				3942AB4C2BA37A4100203808 /* muscle.usdz */,
+				3942AB4D2BA37A4100203808 /* nerve_cell.scn */,
+				3942AB752BA393BD00203808 /* kidney.usdz */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		3942AB502BA37A4100203808 /* RealityViews */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB732BA384AF00203808 /* SkeletalModel.swift */,
+				3942ABA62BA3F11B00203808 /* NervousModel.swift */,
+				3942ABA82BA3F29600203808 /* CirculatoryModel.swift */,
+				3942ABAA2BA3F2D300203808 /* RespiratoryModel.swift */,
+				3942ABAE2BA3F34600203808 /* MuscularModel.swift */,
+			);
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+		3942AB542BA37A4100203808 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3942ABB22BA4BEBB00203808 /* difficulty.swift */,
+				3942AB512BA37A4100203808 /* BodySystem.swift */,
+				392982DF2BE4941A00247195 /* SharedViewModel.swift */,
+				3987B77A2BD728E8006F487E /* UserProfileViewModel.swift */,
+				3942AB522BA37A4100203808 /* MenuOptions.swift */,
+				3942AB532BA37A4100203808 /* ModelData.swift */,
+				3942ABB42BA4BEBB00203808 /* QuizData.swift */,
+				5B5DEBF62BC891EF00F1251A /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3942AB562BA37A4200203808 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3942AB552BA37A4200203808 /* bodySystemData.json */,
+				3942ABB02BA4BEA900203808 /* Quiz.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3942AB5E2BA37A4200203808 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3942ABB32BA4BEBB00203808 /* DifficultyButton.swift */,
+				3942ABB52BA4BEBB00203808 /* QuizMenuView.swift */,
+				5B5DEBF82BC89F0300F1251A /* BodySystemGridView.swift */,
+				3942ABB72BA4BEBB00203808 /* QuizView.swift */,
+				393C0C082BD852BD002641E0 /* AnatomyQuizView2.swift */,
+				5B5DEBFA2BC8B4EE00F1251A /* QuestionView.swift */,
+				3987B7782BD728D4006F487E /* UserProfileView.swift */,
+				3942AB2C2BA379D400203808 /* ImmersiveView.swift */,
+				3942AB282BA379D400203808 /* VisionDocApp.swift */,
+				3942AB2A2BA379D400203808 /* ContentView.swift */,
+				3942AB572BA37A4200203808 /* BodyRow.swift */,
+				3942AB5B2BA37A4200203808 /* MenuView.swift */,
+				39725C6F2BC85E9F00D62630 /* AccountView.swift */,
+				3942AB5C2BA37A4200203808 /* SceneKitModelView.swift */,
+				3942AB5D2BA37A4200203808 /* systemsMenu3D.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3961B4472BD6EE9900F0B33F /* ModelAttachments */ = {
+			isa = PBXGroup;
+			children = (
+				3961B4492BD6EEED00F0B33F /* AttachmentsProvider.swift */,
+				3961B44C2BD6EEEE00F0B33F /* Components.swift */,
+				3961B4482BD6EEED00F0B33F /* ContentViewTest.swift */,
+				3961B44A2BD6EEED00F0B33F /* DioramaView.swift */,
+				392982E12BE4977900247195 /* NervousDioramaView.swift */,
+				3961B44D2BD6EEEE00F0B33F /* LearnMoreView.swift */,
+				3961B44B2BD6EEEE00F0B33F /* ViewModel.swift */,
+			);
+			path = ModelAttachments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3942AB202BA379D400203808 /* VisionDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3942AB402BA379D600203808 /* Build configuration list for PBXNativeTarget "VisionDoc" */;
+			buildPhases = (
+				3942AB1D2BA379D400203808 /* Sources */,
+				3942AB1E2BA379D400203808 /* Frameworks */,
+				3942AB1F2BA379D400203808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionDoc;
+			packageProductDependencies = (
+				3942AB262BA379D400203808 /* RealityKitContent */,
+			);
+			productName = VisionDoc;
+			productReference = 3942AB212BA379D400203808 /* VisionDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3942AB372BA379D600203808 /* VisionDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3942AB432BA379D600203808 /* Build configuration list for PBXNativeTarget "VisionDocTests" */;
+			buildPhases = (
+				3942AB342BA379D600203808 /* Sources */,
+				3942AB352BA379D600203808 /* Frameworks */,
+				3942AB362BA379D600203808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3942AB3A2BA379D600203808 /* PBXTargetDependency */,
+			);
+			name = VisionDocTests;
+			productName = VisionDocTests;
+			productReference = 3942AB382BA379D600203808 /* VisionDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3942AB192BA379D400203808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3942AB202BA379D400203808 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3942AB372BA379D600203808 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3942AB202BA379D400203808;
+					};
+				};
+			};
+			buildConfigurationList = 3942AB1C2BA379D400203808 /* Build configuration list for PBXProject "VisionDoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3942AB182BA379D400203808;
+			packageReferences = (
+				5BBB69BD2BC9ACF800C46B91 /* XCRemoteSwiftPackageReference "RealityUI" */,
+			);
+			productRefGroup = 3942AB222BA379D400203808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3942AB202BA379D400203808 /* VisionDoc */,
+				3942AB372BA379D600203808 /* VisionDocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3942AB1F2BA379D400203808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942AB652BA37A4200203808 /* muscle.usdz in Resources */,
+				3942AB662BA37A4200203808 /* nerve_cell.scn in Resources */,
+				3942AB6B2BA37A4200203808 /* bodySystemData.json in Resources */,
+				3942AB612BA37A4200203808 /* doctor.obj in Resources */,
+				3942AB322BA379D600203808 /* Preview Assets.xcassets in Resources */,
+				3942AB622BA37A4200203808 /* heart.usdz in Resources */,
+				3942ABB12BA4BEA900203808 /* Quiz.json in Resources */,
+				3942AB2F2BA379D600203808 /* Assets.xcassets in Resources */,
+				3942AB602BA37A4200203808 /* bone.scn in Resources */,
+				3942AB5F2BA37A4200203808 /* anatomyscene.usdz in Resources */,
+				3942AB642BA37A4200203808 /* lungs.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3942AB362BA379D600203808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3942AB1D2BA379D400203808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5DEBFB2BC8B4EE00F1251A /* QuestionView.swift in Sources */,
+				3942AB722BA37A4200203808 /* systemsMenu3D.swift in Sources */,
+				3942ABB92BA4BEBB00203808 /* difficulty.swift in Sources */,
+				3942ABBA2BA4BEBB00203808 /* DifficultyButton.swift in Sources */,
+				3942AB742BA384AF00203808 /* SkeletalModel.swift in Sources */,
+				3987B77B2BD728E8006F487E /* UserProfileViewModel.swift in Sources */,
+				3961B44F2BD6EEEE00F0B33F /* AttachmentsProvider.swift in Sources */,
+				3961B4512BD6EEEE00F0B33F /* ViewModel.swift in Sources */,
+				3961B4522BD6EEEE00F0B33F /* Components.swift in Sources */,
+				3942AB2B2BA379D400203808 /* ContentView.swift in Sources */,
+				392982E22BE4977900247195 /* NervousDioramaView.swift in Sources */,
+				393C0C092BD852BD002641E0 /* AnatomyQuizView2.swift in Sources */,
+				3942AB702BA37A4200203808 /* MenuView.swift in Sources */,
+				3942ABBC2BA4BEBB00203808 /* QuizMenuView.swift in Sources */,
+				3942AB292BA379D400203808 /* VisionDocApp.swift in Sources */,
+				3961B4532BD6EEEE00F0B33F /* LearnMoreView.swift in Sources */,
+				39725C702BC85E9F00D62630 /* AccountView.swift in Sources */,
+				3961B4502BD6EEEE00F0B33F /* DioramaView.swift in Sources */,
+				3942AB2D2BA379D400203808 /* ImmersiveView.swift in Sources */,
+				3942AB682BA37A4200203808 /* BodySystem.swift in Sources */,
+				5B5DEBF72BC891F000F1251A /* NetworkManager.swift in Sources */,
+				3961B44E2BD6EEEE00F0B33F /* ContentViewTest.swift in Sources */,
+				3942ABA92BA3F29600203808 /* CirculatoryModel.swift in Sources */,
+				392982E02BE4941A00247195 /* SharedViewModel.swift in Sources */,
+				3942ABBB2BA4BEBB00203808 /* QuizData.swift in Sources */,
+				3942ABAB2BA3F2D300203808 /* RespiratoryModel.swift in Sources */,
+				3942AB692BA37A4200203808 /* MenuOptions.swift in Sources */,
+				3942ABBE2BA4BEBB00203808 /* QuizView.swift in Sources */,
+				3942ABAF2BA3F34600203808 /* MuscularModel.swift in Sources */,
+				3942AB6C2BA37A4200203808 /* BodyRow.swift in Sources */,
+				3987B7792BD728D4006F487E /* UserProfileView.swift in Sources */,
+				3942ABA72BA3F11B00203808 /* NervousModel.swift in Sources */,
+				3942AB6A2BA37A4200203808 /* ModelData.swift in Sources */,
+				3942AB712BA37A4200203808 /* SceneKitModelView.swift in Sources */,
+				5B5DEBF92BC89F0300F1251A /* BodySystemGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3942AB342BA379D600203808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942AB3D2BA379D600203808 /* VisionDocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3942AB3A2BA379D600203808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3942AB202BA379D400203808 /* VisionDoc */;
+			targetProxy = 3942AB392BA379D600203808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3942AB3E2BA379D600203808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		3942AB3F2BA379D600203808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		3942AB412BA379D600203808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.VisionDoc1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		3942AB422BA379D600203808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.VisionDoc1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		3942AB442BA379D600203808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.VisionDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionDoc";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		3942AB452BA379D600203808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.VisionDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionDoc";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3942AB1C2BA379D400203808 /* Build configuration list for PBXProject "VisionDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3942AB3E2BA379D600203808 /* Debug */,
+				3942AB3F2BA379D600203808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3942AB402BA379D600203808 /* Build configuration list for PBXNativeTarget "VisionDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3942AB412BA379D600203808 /* Debug */,
+				3942AB422BA379D600203808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3942AB432BA379D600203808 /* Build configuration list for PBXNativeTarget "VisionDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3942AB442BA379D600203808 /* Debug */,
+				3942AB452BA379D600203808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BBB69BD2BC9ACF800C46B91 /* XCRemoteSwiftPackageReference "RealityUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/RealityUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3942AB262BA379D400203808 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3942AB192BA379D400203808 /* Project object */;
+}

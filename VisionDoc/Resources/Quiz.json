@@ -1,0 +1,311 @@
+[
+    {
+        "name": "Skeletal System",
+        "id": 1001,
+        "modelName": "bone.scn",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia de nervios. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the function of the skeletal system?",
+                        "answers": ["Support", "Protection", "Movement", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which bone protects the brain?",
+                        "answers": ["Femur", "Tibia", "Skull", "Humerus"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the function of the skeletal system?",
+                        "answers": ["Support", "Protection", "Movement", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which bone protects the brain?",
+                        "answers": ["Femur", "Tibia", "Skull", "Humerus"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the function of the skeletal system?",
+                        "answers": ["Support", "Protection", "Movement", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which bone protects the brain?",
+                        "answers": ["Femur", "Tibia", "Skull", "Humerus"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        }
+    },
+
+    
+    {
+        "name": "Nervous System",
+        "id": 1002,
+        "modelName": "nerve_cell.scn",
+        "description": "Descripción del sistema nervioso.",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the nervous system?",
+                        "answers": ["Coordination", "Control", "Sensation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which part of the neuron receives signals from other neurons?",
+                        "answers": ["Axon", "Dendrite", "Cell body", "Synapse"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the nervous system?",
+                        "answers": ["Coordination", "Control", "Sensation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which part of the neuron receives signals from other neurons?",
+                        "answers": ["Axon", "Dendrite", "Cell body", "Synapse"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the nervous system?",
+                        "answers": ["Coordination", "Control", "Sensation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which part of the neuron receives signals from other neurons?",
+                        "answers": ["Axon", "Dendrite", "Cell body", "Synapse"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            }
+        }
+    },
+    
+    {
+        "name": "Muscular System",
+        "id": 1003,
+        "modelName": "muscle.usdz",
+        "description": "Descripción del sistema muscular.",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the muscular system?",
+                        "answers": ["Movement", "Protection", "Support", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which type of muscle is voluntary?",
+                        "answers": ["Smooth muscle", "Cardiac muscle", "Skeletal muscle", "Involuntary muscle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the muscular system?",
+                        "answers": ["Movement", "Protection", "Support", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which type of muscle is voluntary?",
+                        "answers": ["Smooth muscle", "Cardiac muscle", "Skeletal muscle", "Involuntary muscle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the muscular system?",
+                        "answers": ["Movement", "Protection", "Support", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which type of muscle is voluntary?",
+                        "answers": ["Smooth muscle", "Cardiac muscle", "Skeletal muscle", "Involuntary muscle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "name": "Circulatory System",
+        "id": 1004,
+        "modelName": "heart.usdz",
+        "description": "Descripción del sistema circulatorio.",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the circulatory system?",
+                        "answers": ["Transportation", "Protection", "Respiration", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which chamber of the heart pumps blood to the lungs?",
+                        "answers": ["Left atrium", "Left ventricle", "Right atrium", "Right ventricle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the circulatory system?",
+                        "answers": ["Transportation", "Protection", "Respiration", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which chamber of the heart pumps blood to the lungs?",
+                        "answers": ["Left atrium", "Left ventricle", "Right atrium", "Right ventricle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the circulatory system?",
+                        "answers": ["Transportation", "Protection", "Respiration", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which chamber of the heart pumps blood to the lungs?",
+                        "answers": ["Left atrium", "Left ventricle", "Right atrium", "Right ventricle"],
+                        "correctAnswerIndex": 2
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "name": "Respiratory System",
+        "id": 1005,
+        "modelName": "lungs.usdz",
+        "description": "Descripción del sistema respiratorio.",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the respiratory system?",
+                        "answers": ["Gas exchange", "Voice production", "Temperature regulation", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which structure is known as the 'voice box'?",
+                        "answers": ["Trachea", "Larynx", "Bronchi", "Alveoli"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the respiratory system?",
+                        "answers": ["Gas exchange", "Voice production", "Temperature regulation", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which structure is known as the 'voice box'?",
+                        "answers": ["Trachea", "Larynx", "Bronchi", "Alveoli"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the respiratory system?",
+                        "answers": ["Gas exchange", "Voice production", "Temperature regulation", "All of the above"],
+                        "correctAnswerIndex": 0
+                    },
+                    {
+                        "question": "Which structure is known as the 'voice box'?",
+                        "answers": ["Trachea", "Larynx", "Bronchi", "Alveoli"],
+                        "correctAnswerIndex": 1
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "name": "Urinary System",
+        "id": 1006,
+        "modelName": "kidney.usdz",
+        "description": "Descripción del sistema urinario.",
+        "difficulty": {
+            "easy": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the urinary system?",
+                        "answers": ["Waste excretion", "Water balance regulation", "Blood pressure regulation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which organ produces urine?",
+                        "answers": ["Kidneys", "Bladder", "Ureters", "Urethra"],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            "normal": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the urinary system?",
+                        "answers": ["Waste excretion", "Water balance regulation", "Blood pressure regulation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which organ produces urine?",
+                        "answers": ["Kidneys", "Bladder", "Ureters", "Urethra"],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            },
+            "advanced": {
+                "questions": [
+                    {
+                        "question": "What is the main function of the urinary system?",
+                        "answers": ["Waste excretion", "Water balance regulation", "Blood pressure regulation", "All of the above"],
+                        "correctAnswerIndex": 3
+                    },
+                    {
+                        "question": "Which organ produces urine?",
+                        "answers": ["Kidneys", "Bladder", "Ureters", "Urethra"],
+                        "correctAnswerIndex": 0
+                    }
+                ]
+            }
+        }
+    },
+
+    
+]
+

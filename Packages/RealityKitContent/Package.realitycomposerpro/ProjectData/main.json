@@ -1,0 +1,20 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/DioramaAssembled.usda" : "07FE6213-1D83-436F-95B8-FD449C6B1E92",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/heartAnatomy.usda" : "9F4C427F-DAD0-45C7-A98A-81882845E876",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/heartAnimated.usda" : "EC398A4B-AC4E-4E01-BD2B-4BFB9AE1CC4F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/kidneyAnatomy.usda" : "160010BF-94BD-438B-B812-D605168234F9",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/lungsAnatomy.usda" : "B68004DE-D896-4626-94E0-D875C06A5115",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/muscleAnatomy.usda" : "2F96B865-4A09-4451-93D0-9912CA96E4D4",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/NervousModel.usda" : "5EF4D8FB-D3D8-435E-8F49-DE93A4D89981",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/skeletonAnatomy.usda" : "EE7EB97F-BEBD-40D4-83CF-B305552C7C68",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled%20Scene.usda" : "1A269719-2902-4318-A6A2-0142BE3B9CCC"
+  }
+}

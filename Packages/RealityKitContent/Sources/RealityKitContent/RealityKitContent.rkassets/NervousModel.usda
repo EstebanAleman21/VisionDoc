@@ -1,0 +1,421 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["BrainModel", "BrainDetail", "Capsule_5", "WoodPlank", "Capsule_6", "Capsule_7", "Capsule_8", "Capsule_9", "Pre_Frontal_Lobe", "Parietal_Lobe", "Temporal_Lobe", "Occipital_Lobe", "Transform_4"]
+    def Xform "BrainModel"
+    {
+        def "Neurology" (
+            active = true
+            references = @Neurology.usdz@
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.01, 0.01, 0.01)
+            float3 xformOp:translate = (-0.000056033023, 0, 0.017730713)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+        {
+            uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+            token region = "mainModel"
+        }
+    }
+
+    def Xform "BrainDetail" (
+        active = true
+    )
+    {
+        reorder nameChildren = ["Brain_Project", "Capsule_5", "WoodPlank", "Capsule_6", "Capsule_7", "Capsule_8", "Pre_Frontal_Lobe", "Parietal_Lobe", "Temporal_Lobe", "Occipital_Lobe"]
+        def "Brain_Project" (
+            active = true
+            references = @Brain_Project.usdz@
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.008, 0.008, 0.008)
+            float3 xformOp:translate = (0, 0.83669364, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Capsule "Capsule_5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.69813156, -1.4901165e-8, 0.78539795)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.6
+            rel material:binding = </Root/BrainDetail/WoodPlank> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.003
+            quatf xformOp:orient = (0.8681628, 0.31598538, 0.13088539, 0.35960472)
+            float3 xformOp:scale = (0.99999964, 0.99999964, 0.9999998)
+            float3 xformOp:translate = (-0.19452597, 1.4968468, 0.6797486)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/BrainDetail/Capsule_5/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+
+            def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+            {
+                uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+                token region = "detailModel"
+            }
+
+            def RealityKitComponent "HierarchicalFade"
+            {
+                uniform token info:id = "RealityKit.HierarchicalFade"
+                float opacity = 0.5012196
+            }
+        }
+
+        def "WoodPlank" (
+            active = true
+            references = @WoodPlank.usdz@
+        )
+        {
+            color3f inputs:Basecolor_Tint (
+                customData = {
+                    dictionary realitykit = {
+                        float2 positionInSubgraph = (-56.812614, 67.17455)
+                        float2 sizeInSubgraph = (161, 53)
+                        int stackingOrderInSubgraph = 2352
+                    }
+                }
+            )
+            float2 inputs:UV_Scale (
+                customData = {
+                    dictionary realitykit = {
+                        float2 positionInSubgraph = (-725.2588, 351.55255)
+                        float2 sizeInSubgraph = (139, 53)
+                        int stackingOrderInSubgraph = 2272
+                    }
+                }
+            )
+            float2 ui:nodegraph:realitykit:subgraphOutputs:size = (182, 99)
+
+            over "Dot"
+            {
+                float2 ui:nodegraph:node:size = (44, 18)
+            }
+
+            over "multiply"
+            {
+                float2 ui:nodegraph:node:size = (61, 36)
+            }
+
+            over "add"
+            {
+                float2 ui:nodegraph:node:size = (63, 37)
+            }
+
+            over "PreviewSurface"
+            {
+                float2 ui:nodegraph:node:size = (149, 199)
+            }
+
+            over "Mix"
+            {
+                float2 ui:nodegraph:node:size = (109, 145)
+            }
+
+            over "Swizzle"
+            {
+                float2 ui:nodegraph:node:size = (133, 40)
+            }
+
+            over "Swizzle_1"
+            {
+                float2 ui:nodegraph:node:size = (145, 53)
+            }
+
+            over "Multiply_1"
+            {
+                float2 ui:nodegraph:node:size = (61, 36)
+            }
+
+            over "BaseColor"
+            {
+                float2 ui:nodegraph:node:size = (159, 235)
+            }
+
+            over "Roughness"
+            {
+                float2 ui:nodegraph:node:size = (159, 235)
+            }
+
+            over "Metallic"
+            {
+                float2 ui:nodegraph:node:size = (159, 235)
+            }
+
+            over "Normal"
+            {
+                float2 ui:nodegraph:node:size = (159, 235)
+            }
+        }
+
+        def Capsule "Capsule_6" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.34906572, -5.2154064e-8, 0.78539807)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.6
+            rel material:binding = </Root/BrainDetail/WoodPlank> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.003
+            quatf xformOp:orient = (0.90984374, 0.16042992, 0.066452205, 0.37686956)
+            float3 xformOp:scale = (0.99999964, 0.99999964, 0.9999999)
+            float3 xformOp:translate = (-0.14023632, 1.6378274, -0.11379039)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/BrainDetail/Capsule_6/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+
+            def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+            {
+                uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+                token region = "detailModel"
+            }
+
+            def RealityKitComponent "HierarchicalFade"
+            {
+                uniform token info:id = "RealityKit.HierarchicalFade"
+                float opacity = 0.5012196
+            }
+        }
+
+        def Capsule "Capsule_7" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.34906572, -5.2154064e-8, 0.78539807)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.6
+            rel material:binding = </Root/BrainDetail/WoodPlank> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.003
+            quatf xformOp:orient = (0.90984374, 0.16042992, 0.066452205, 0.37686956)
+            float3 xformOp:scale = (0.99999964, 0.99999964, 0.9999999)
+            float3 xformOp:translate = (0.46896982, 1.1855477, -0.22208881)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/BrainDetail/Capsule_7/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+
+            def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+            {
+                uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+                token region = "detailModel"
+            }
+
+            def RealityKitComponent "HierarchicalFade"
+            {
+                uniform token info:id = "RealityKit.HierarchicalFade"
+                float opacity = 0.5012196
+            }
+        }
+
+        def Capsule "Capsule_8" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.34906572, -5.2154064e-8, 0.78539807)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.6
+            rel material:binding = </Root/BrainDetail/WoodPlank> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.003
+            quatf xformOp:orient = (0.90984374, 0.16042992, 0.066452205, 0.37686956)
+            float3 xformOp:scale = (0.99999964, 0.99999964, 0.9999999)
+            float3 xformOp:translate = (0.43601578, 1.082542, -0.544542)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/BrainDetail/Capsule_8/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+
+            def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+            {
+                uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+                token region = "detailModel"
+            }
+
+            def RealityKitComponent "HierarchicalFade"
+            {
+                uniform token info:id = "RealityKit.HierarchicalFade"
+                float opacity = 0.5012196
+            }
+        }
+
+        def Xform "Pre_Frontal_Lobe" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (-0.46584696, 1.6840246, 0.87642294)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitCustomComponent "RealityKitContent_PointOfInterestComponent"
+            {
+                string description = "The prefrontal lobe, located at the anterior part of the frontal lobe in the brain, is responsible for higher-order cognitive functions, executive control, and the regulation of behavior and emotions. This region is involved in decision-making, problem-solving, attention, working memory, and planning. Additionally, the prefrontal lobe plays a crucial role in social cognition, including empathy, moral reasoning, and the ability to understand and respond appropriately to social cues. Damage to the prefrontal lobe can result in impairments in judgment, impulse control, and personality changes."
+                uniform token info:id = "RealityKitContent.PointOfInterestComponent"
+                string name = "Pre-Frontal Lobe"
+                token region = "detailModel"
+            }
+        }
+
+        def Xform "Parietal_Lobe" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (-0.42767572, 1.8800977, -0.02527368)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitCustomComponent "RealityKitContent_PointOfInterestComponent"
+            {
+                string description = "The parietal lobe is one of the four major lobes of the cerebral cortex, located posterior to the frontal lobe and superior to the temporal lobe. It is primarily responsible for processing and integrating sensory information related to touch, pressure, temperature, and proprioception (the body's position in space). The parietal lobe also plays a key role in spatial perception, navigation, and the manipulation of objects. Furthermore, it is involved in language processing, particularly in the left hemisphere, where it contributes to the understanding of written language and mathematical operations. Damage to the parietal lobe can result in a variety of sensory, perceptual, and cognitive deficits, depending on the specific location and extent of the injury."
+                uniform token info:id = "RealityKitContent.PointOfInterestComponent"
+                string name = "Parietal Lobe"
+                token region = "detailModel"
+            }
+        }
+
+        def Xform "Temporal_Lobe" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0.6629616, 0.897028, -0.29062262)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitCustomComponent "RealityKitContent_PointOfInterestComponent"
+            {
+                string description = "The temporal lobe, located on the lateral aspect of the cerebral cortex, beneath the lateral sulcus and anterior to the occipital lobe, is involved in various functions, including auditory processing, language comprehension, visual perception, and memory formation. The primary auditory cortex, situated in the superior temporal gyrus, processes auditory information, while nearby regions, such as Wernicke's area, are crucial for language comprehension. The temporal lobe also contains the hippocampus and amygdala, structures essential for memory consolidation and emotional processing, respectively. Additionally, the ventral stream of the visual pathway, which runs through the temporal lobe, is involved in object recognition and face perception. Damage to the temporal lobe can result in deficits such as difficulty understanding spoken language (receptive aphasia), impaired memory formation and retrieval, and changes in emotional behavior, depending on the specific location and extent of the damage."
+                uniform token info:id = "RealityKitContent.PointOfInterestComponent"
+                string name = "Temporal Lobe"
+            }
+        }
+
+        def Xform "Occipital_Lobe" (
+            active = true
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0.6629616, 0.7919864, -0.67589974)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitCustomComponent "RealityKitContent_PointOfInterestComponent"
+            {
+                string description = "The occipital lobe, located at the posterior aspect of the cerebral cortex, is primarily responsible for processing visual information. It receives input from the eyes via the optic nerves and the lateral geniculate nucleus of the thalamus. The occipital lobe is involved in the perception of color, form, motion, and depth. It also plays a role in the recognition of objects, faces, and scenes. Within the occipital lobe, the primary visual cortex (V1) is the first region to receive and process visual signals, while higher-order visual areas (V2-V5) are involved in more complex aspects of visual processing. Damage to the occipital lobe can cause a range of visual deficits, such as partial or complete blindness, visual field defects, or impairments in color perception or object recognition, depending on the location and extent of the damage."
+                uniform token info:id = "RealityKitContent.PointOfInterestComponent"
+                string name = "Occipital Lobe"
+                token region = "detailModel"
+            }
+        }
+
+        def RealityKitCustomComponent "RealityKitContent_RegionSpecificComponent"
+        {
+            uniform token info:id = "RealityKitContent.RegionSpecificComponent"
+            token region = "detailModel"
+        }
+    }
+
+    def RealityKitCustomComponent "RealityKitContent_GestureComponent"
+    {
+        uniform token info:id = "RealityKitContent.GestureComponent"
+    }
+
+    def RealityKitComponent "InputTarget"
+    {
+        uniform token info:id = "RealityKit.InputTarget"
+    }
+
+    def RealityKitComponent "Collider"
+    {
+        uint group = 1
+        uniform token info:id = "RealityKit.Collider"
+        uint mask = 4294967295
+        token type = "Default"
+
+        def RealityKitStruct "Shape"
+        {
+            float3 extent = (1.0965376, 1.8351275, 1.5278044)
+            float height = 1.8351275
+            float radius = 0.7639022
+            token shapeType = "Capsule"
+
+            def RealityKitStruct "pose"
+            {
+                float3 position = (0.12488012, 0.9244427, 0.11290908)
+            }
+        }
+    }
+}
+
