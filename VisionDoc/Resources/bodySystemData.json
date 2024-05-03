@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Skeletal System",
+        "id": 1001,
+        "modelName": "bone.scn",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia de esqueleto. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    {
+        "name": "Nervous System",
+        "id": 1002,
+        "modelName": "nerve_cell.scn",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia de nervios. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    {
+        "name": "Muscular System",
+        "id": 1003,
+        "modelName": "muscle.usdz",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia muscular. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    {
+        "name": "Circulatory System",
+        "id": 1004,
+        "modelName": "heart.usdz",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia circulatoria. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    {
+        "name": "Respiratory System",
+        "id": 1005,
+        "modelName": "lungs.usdz",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia respiratoria. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    {
+        "name": "Urinary System",
+        "id": 1006,
+        "modelName": "kidney.usdz",
+        "description": "Esto es un ejemplo de una descripcion sobre la anatomia urinaria. En teoria aqui se encontrara informacion relevante para que el usuario tenga un vista general de su seleccion de anatomia humana. Por ello hacemos esto para desplegar informacion. Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion Informacion"
+    },
+    
+]

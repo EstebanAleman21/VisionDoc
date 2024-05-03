@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFCD216B-9EC5-4408-94AE-A2CC07680BA1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisionDoc/Views/ImmersiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 3877f505b41a2c31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - f4817c0051bd5dd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - f686f7bc9b5e00f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - f686f7bc9b5e00f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 77d8a2413ce0020c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "D97E1D1A-8359-471C-8530-CC581C8AEFFA - 77d8a2413ce0020c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Swift.MainActor @Sendable (inout _RealityKit_SwiftUI.RealityViewContent) async -&gt; () in VisionDoc.ImmersiveView.body.getter : some"
+                  moduleName = "VisionDoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedraza/Documents/VisionDoc/VisionDoc/Views/ImmersiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
